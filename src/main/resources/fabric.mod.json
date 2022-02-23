@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "mccourse",
+  "version": "${version}",
+
+  "name": "MC Course Fabric Mod",
+  "description": "Practice Mod!",
+  "authors": [
+    "fill1890"
+  ],
+  "contact": {
+    "homepage": "https://github.com/fill1890/mccourse",
+    "sources": "https://github.com/fill1890/mccourse"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.fill1890.mccourse.MCCourseMod"
+    ]
+  },
+  "mixins": [
+    "mccourse.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
